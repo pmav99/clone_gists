@@ -5,7 +5,7 @@ to retrieve the list of your gists and `git clone`/`git pull` them.
 
 # Usage
 
-1. Create a Github API token
+1. Create a [Github Personal token](https://github.com/settings/tokens)
 2. `export GITHUB_API_TOKEN=...`
 3. `pip install pygithub`
 4. `python clone_gists.py`
