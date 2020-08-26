@@ -9,3 +9,5 @@ to retrieve the list of your gists and `git clone`/`git pull` them.
 2. `export GITHUB_API_TOKEN=...`
 3. `pip install pygithub`
 4. `python clone_gists.py`
+
+The gists will be downloaded in the `repos` directory. In order to find a specific gist use `grep`/`ag` or something similar
